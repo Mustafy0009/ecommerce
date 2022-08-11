@@ -1,0 +1,219 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+#logo h4{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#logo span{
+    color: black;
+}
+div.nav {
+     display: flex;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+ 
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 2px 8px ;
+    color: black;
+    font-size: 13px;
+}
+
+
+
+.svg{
+    width: 5%;
+    height: 10px;
+}
+
+
+.products{
+    color: red;
+}
+
+/* input{
+    width: 10%;
+    height: 28px;
+    margin: 13px;
+} */
+
+.head-button{
+    /* margin-left: 50px; 
+    padding: 20px; */
+}
+
+/* .head-button button{
+    padding: 9px;
+    width: 100px;
+    margin: 0px 20px 0px 0px;
+} */
+
+.banner{
+    background-image: url(banner.jpg);
+    background-size: cover;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.banner h4{
+    color: white;
+    font-size: 60px;
+    margin-top: 50px;
+    padding: 70px 0px 0px 60px;
+}
+
+
+
+.banner h3 a{
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 30px 30px 3px;
+}
+
+.shop h3{
+    font-display: bold;
+    font-size: 30px;
+    margin: 10px 0px 0px 0px;
+}
+
+.shop{
+    padding: 30px;
+    margin: 10px auto;
+    width: 70%;
+}
+
+.shop-pic{
+    width: 30%;
+    margin-left: 70px;
+}
+
+.table{
+    text-align: center;
+}
+
+.table tr th{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+}
+
+.table tr td{
+    font-size: 20px;
+    margin: 0px 0px 0px 10px;
+}
+
+
+.detail{
+     width: 80%;
+     margin-bottom: 90px;
+}
+
+.detail h4{
+    font-size: 40px;
+}
+
+.detail form{
+    margin-right: 80px;
+
+}
+
+hr{
+    width: 200%;
+}
+
+
+.basket button{
+    margin-left: 175px;
+    width: 25%;
+    margin-top: 50px;
+
+}
+
+form input{
+    width: 100%;
+    height: 40px;
+    background-color: #f4f4f4;
+    border: none;
+    font-size: 15px;
+    margin: 5px;
+
+}
+
+form input:hover{
+    background-color: #fff;
+    border: none;
+    color: rgb(252, 0, 0);
+}
+
+form input:focus{
+    border: red;
+}
+
+footer{
+    padding: 20px 10px 20px 10px;
+    background-color: black;
+    color: #fff;
+}
+
+
+
+
+.offer h3{
+    font-size: 40px;
+}
+
+.special{
+    display: flex;
+    margin: 50px;
+}
+
+.one{
+    margin: 0px 120px 0px 10px;
+}
+
+.one h4{
+    font-size: 20px;
+}
+
+button{
+    color: white;
+    background-color: red;
+     border: none;
+    padding: 10px;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.service{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.service >div{
+    margin: 50px;
+    padding: 40px;
+}
+
